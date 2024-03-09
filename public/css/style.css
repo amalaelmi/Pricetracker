@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #7CA112; */
+}
+
+header {
+    background-color: #425900;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+main{
+    padding: 1rem;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #B6D952;
+    background-color: #B6D952;
+}
+
+.container h2 {
+    margin-top: 0;
+}
+
+.container1{
+    margin-bottom: 1rem;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #B6D952;
+    background-color: #B6D952;
+}
+
+form label,
+ul li {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 60%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+   /* padding: 8px 16px;*/
+   /* background-color: #fff;*/
+    color: #333;
+    border: none;
+    cursor: pointer;
+    
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #425900;
+}
+
+.float-label{
+    display: inline;
+}
+
+
+@media (max-width: 576px) {
+.chart-container {
+    width: 100%;
+}
+}
+
+
+@media (min-width: 768px) {
+.chart-container {
+    width: 50%; 
+    float: left; 
+}
+}
